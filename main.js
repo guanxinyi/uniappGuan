@@ -9,6 +9,8 @@ const app = new Vue({
 })
 app.$mount()
 // #endif
+import home from './pages/index/index.vue'
+Vue.component('home',home)
 
 // #ifdef VUE3
 import { createSSRApp } from 'vue'
